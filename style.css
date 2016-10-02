@@ -1,0 +1,155 @@
+body {
+	background-image: url(pic/fon.png); /* Путь к фоновому рисунку */
+  /*background-position:    Положение фона */
+  background-repeat: repeat-x; /* Повторяем фон по горизонтали */
+  margin: 0;
+	height: auto;
+	width: auto;
+   }
+.wrapper {
+	width: 1000px;
+	float: left;
+  box-shadow: 0 0 7px 1px;
+	align-content: center;
+	margin-left: 100px;
+}
+.container {
+box-shadow: 0 5px;
+margin-top: 0;
+float: left;
+}
+.logo {
+	float: left;
+	height: 190px;
+}
+.logo1 {
+width: 350px;
+float: left;
+}
+.logo2 {
+width: 650px;
+background: url(pic/logo2.png) repeat-y; /* фоновая картинка. повторяется по вертикали */
+float: left; /* чтобы не добавлять div с style="clear:both;" (не всегда уместно это применять) */
+height: 175px;
+}
+.contact, .countries a {
+	color: #128aa7;
+}
+.countries a {
+width: 82px;
+display: block;
+}
+header {
+	height: 455px;
+}
+.foto1 img{
+margin-top: -6px;
+width: 1000px;
+}
+.contact p {
+	margin-bottom: -15px;
+	text-align: right;
+	margin-right: 20px;
+}
+figure {
+	width: 28px;
+}
+.countries {
+display: inline-flex;
+margin-left: -35px;
+margin-right: -35px;
+margin-top: 9px;
+margin-bottom: -7px;
+justify-content: center;
+height: 100px;
+}
+h2, .rightColumn p, .leftColumn p {
+	color: #333333;
+}
+p, h2, li {
+	font-family: Arial;
+}
+.menu {
+	text-align: left;
+  margin-top: -20px;
+	padding: 0;
+	width: 1000px;
+	height: 20px;
+}
+.menu>ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	background-color: #333333;
+}
+li {
+	padding: 14px;
+	color: white;
+	margin-right: 5px;
+	margin-left: 9px;
+}
+.arrow {
+	position: relative;
+	background-image: url('pic/arrow.png');
+	background-repeat: no-repeat;
+	background-position: -8% 50%;
+	margin-left: -11px;
+}
+.submenu {
+	position: absolute;
+	list-style: none;
+	padding: 0;
+	width: 145px;
+	background-color: #333333;
+	top: 46px;
+	left: -97px;
+}
+.submenu li {
+	display: none;
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 8px;
+}
+.arrow:hover>.submenu li {
+	display: flex;
+}
+.fon2 {
+width: 1000px; /* ширина трех блоков */
+background: url(pic/fon2.png) repeat-y; /* фоновая картинка. повторяется по вертикали */
+float: left; /* чтобы не добавлять div с style="clear:both;" (не всегда уместно это применять) */
+}
+.leftColumn {
+width: 220px;
+float: left;
+}
+.leftColumn p, .rightColumn p, h2 {
+text-align: center;
+margin-bottom: 4px;
+margin-top: 4px;
+padding-left: 5px;
+padding-right: 5px;
+margin-bottom: 4px;
+}
+.centerColumn {
+width: 560px;
+float: left;
+}
+.rightColumn {
+width: 220px;
+float: left;
+}
+.foter {
+	width: 1000px;
+  /*box-shadow: -15px -15px;*/
+	padding-bottom: 6px;
+}
+.foter {
+color: #9bc5d7;
+text-align: center;
+display: block;
+padding-top: 15px;
+}
+.end a {
+	padding-bottom: 5px;
+}
